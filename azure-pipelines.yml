@@ -12,9 +12,9 @@ trigger:
 
 resources:
   repositories:
-    - repository: TestRepo
+    - repository: udemy
       type: github
-      name: Ariyakrishna/TestRepo  # ✅ Your actual GitHub repo
+      name: Ariyakrishna/udemy  # ✅ Your actual GitHub repo
       endpoint: Ariyakrishna       # ✅ GitHub service connection
       ref: refs/heads/main
       trigger:
