@@ -3,12 +3,14 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-name: 'SelfHostedLocal'
 
 trigger:
   branches:
     exclude:
       - '*'  # Disable trigger from current repo
+
+pool:
+  name: 'SelfHostedLocal'
 
 resources:
   repositories:
